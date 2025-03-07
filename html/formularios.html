@@ -1,0 +1,194 @@
+<html>
+    <head>
+        <title>Formularios en HTML</title>
+        <link rel="stylesheet" href="../CSS/style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Covered+By+Your+Grace&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fruktur:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mr+Dafoe&family=Mukta:wght@200;300;400;500;600;700;800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Viga&display=swap" rel="stylesheet">
+        <style>
+            img{
+                width: 30%;
+                height: auto;
+                float: right;
+                margin-left: 15px;
+                border: 10px solid #38CAA1;
+                padding: 10px;
+            }
+            .volver{
+                width: 60px;
+                height: auto;
+                border-style: none;
+                background-color: aquamarine;
+                border-radius: 10px;
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+           <a href="../index.html"><img class="volver" src="../imagenes/reshot-icon-temple-building-BMP5SKFA7R.svg" alt="Menu"></a>
+            <h1 class="animate__animated animate__zoomInDown">FORMULARIOS</h1>
+        </header>
+        <nav><ul>
+            <li><a href="../html/formatos_texto.html">Formatos</a></li>
+            <li><a href="../html/listas.html">Listas</a></li>
+            <li><a href="../html/Enlaces.html">Enlaces</a></li>
+            <li><a href="../html/Tablas.html">Tablas</a></li>
+            <li><a href="../html/Imagenes.html">Imagenes</a></li>
+            <li><a href="../html/Audio.html">Audios</a></li>
+            <li><a href="../html/videos.html">Videos</a></li>
+            <li><a href="../index.html">Index</a></li>
+                
+            </ul></nav>
+        <main>
+            <section class="animate__animated animate__zoomIn">
+                <h2>Formulario</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo dicta cum provident animi obcaecati sint quam nostrum at corporis. Beatae voluptatibus ad, harum omnis asperiores repudiandae excepturi nisi, magni possimus dolores recusandae dolorem pariatur, voluptate minima eaque ex nobis. Consequuntur, beatae! Culpa ut minus ipsum ex aspernatur deleniti, odio officiis cum magnam, suscipit voluptatibus accusantium asperiores! Explicabo accusantium repellat debitis, ullam magni, iusto dolore, veritatis natus consequuntur enim exercitationem repudiandae dignissimos quia tempore animi facere labore alias numquam voluptate molestias.</p>
+                <form action="" method="get" >
+                    <label for="fnombre">Nombre</label>
+                    
+                    <input type="text" id="fnombre" name="fnombre" placeholder="Escribe tu nombre">
+                    
+                    <label for="fapellido">Apellido</label>
+                    
+                    <input type="text" id="fapellido" placeholder="Escribe tu apellido">
+                    
+                    <input type="submit" value="Enviar" >
+                </form>
+            </section>
+            <section class="animate__animated animate__zoomIn">
+                <h2>Formulario</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quia cum officia eveniet necessitatibus possimus ipsam, illo nostrum? Sed modi expedita, voluptatem veniam deserunt fugiat suscipit maxime ipsum, quaerat, excepturi placeat delectus ratione provident beatae hic in facere cupiditate optio corporis quasi! Voluptatem dignissimos voluptas neque ad facere maiores suscipit, quidem fugiat magni beatae ipsa atque quod voluptates sapiente dolores adipisci similique assumenda ipsum saepe id delectus. In fugiat, tempora. Quae necessitatibus eaque enim aspernatur, maxime esse ipsa accusamus. Nemo!</p>
+                <form action="" method="get">
+                    <label for="fecha">Fecha</label>
+                    <br>
+                    <input type="date" id="fecha" name="fecha">
+                    <br>
+                    <label for="fnumerotel">Nùmero de teléfono</label>
+                    <br>
+                    <input type="tel"id="fnumerotel" name="fnumerotel"
+                    value="123-456-7890">
+                    <br>
+                    <label for="contra">Contraseña</label>
+                    <br>
+                    <input type="password" id="contra" name="contra" placeholder="Ingresa tu contraseña">
+                    <br>
+                    <label for="fcolor">Color favorito</label>
+                    <br>
+                    <input type="color" id="fcolor" name="Color" value="">
+                    <br>
+                    <label for="femail">Correo</label>
+                    <br>    
+                    <input type="email" id="femail" name="email" placeholder="@outlook.com">
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+            <section class="animate__animated animate__zoomIn">
+                <h2>Formulario</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum temporibus soluta maiores quasi dolore quam nam corporis delectus vitae iste distinctio error placeat odit laboriosam ex perspiciatis, tempore blanditiis ullam excepturi laudantium amet cupiditate dolorum quidem iusto ab. A dolore ullam, temporibus numquam rem id quasi labore corporis perspiciatis cum maiores nesciunt, delectus officia, eum autem. Vel rerum nam commodi fugiat sequi quidem vero quia ratione consequatur in, error porro dolore eaque hic perferendis dolores a consectetur doloremque, qui amet!</p>
+                <form action="" method="get">
+                   <label for="fnombre1">Nombre</label>
+                   <input type="text" id="fnombre1" name="fnombre1" placeholder="Escribe tu nombre">
+                   <br>
+                   <label for="pais">País:</label>
+                   <select id="pais-ul" name="pais-ul">
+                       <option value="mx">México</option>
+                       <option value="es">España</option>
+                       <option value="us">Estados Unidos</option>
+                       <option value="it">Italia</option>
+                       <option value="co">Colombia</option>
+                       <option value="bo">Bolivia</option>
+                   </select>
+                   <br>
+                   <label for="">Sexo:</label>
+                   <br>
+                   <label>Masculino</label>
+                   <input type="radio" id="masculino" name="genero" value="Masculino">
+                   <label>Femenino</label>
+                   <input type="radio" id="femenino" name="genero" value="Femenino">
+                   <br>
+                   <label for="">Selecciona tu género muscial favorito</label>
+                   <br>
+                   <input type="checkbox" id="gmusical1" name="trap" value="Trap">
+                   <label for="gmusical1">Trap</label>
+                   <input type="checkbox" id="gmusical2" name="rock" value="Rock">
+                   <label for="gmusical2">Rock</label>
+                   <input type="checkbox" id="gmusical3" name="rap" value="Rap">
+                   <label for="gmusical3">Rap</label>
+                   <input type="checkbox" id="gmusical4" name="jazz" value="Jazz">
+                   <label for="gmusical4">Jazz</label>
+                   <input type="checkbox" id="gmusical5" name="pop" value="Pop">
+                   <label for="gmusical5">Pop</label>
+                   <input type="checkbox" id="gmusical6" name="regueton" value="Regueton">
+                   <label for="gmusical6">Regueton</label>
+                   <input type="checkbox" id="gmusical7" name="elec" value="Electronica">
+                   <label for="gmusical7">Electronica</label>
+                   <input type="checkbox" id="gmusical8" name="corrit" value="Corrit">
+                   <label for="gmusical8">Corridos tumbados</label>
+                   <input type="submit" value="Enviar">
+                </form>
+            </section>
+            <section class="animate__animated animate__zoomIn">
+              <h2>Formulario</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reprehenderit voluptatibus ad repellat quisquam praesentium atque voluptates, perferendis, similique, labore culpa, nesciunt nisi ipsum fuga ratione eaque ullam nemo. Perferendis animi rem atque possimus harum quos itaque obcaecati deleniti, odio inventore magni molestiae autem nostrum, dolorum quibusdam dolore vitae! Quia laborum hic consequatur aperiam cum voluptas a, ratione error accusamus officia magnam quidem alias explicabo cumque esse labore similique, iusto voluptatum quibusdam totam mollitia. Voluptas ratione reiciendis, ipsa numquam nihil?</p>
+                <form action="" method="get">
+                    <label for="ffile">Archivo</label>
+                    <br>
+                    <input type="file" id="ffile" name="File" accept=".jpg, .jpeg, .png, .pdf, .tiff">
+                    <br>
+                    
+                    <label for="f-h">Ingresa Fecha y Hora</label>
+                    <br>
+                    <input type="datetime-local" id="f-h" name="F-H" required>
+                    
+                    <br>
+                    <label for="mes">Ingresa mes actual</label>
+                    <br>
+                    <input type="month" id="mes" name="Mes">
+
+                    <br>
+                    <label for="semana">Indica la semana actual</label>
+                    <br>
+                    <input type="week" id="semana" name="Semana">
+                                        
+                    <br>
+                    <label for="rango"¿>Que tanto te gusta el pozole?</label>
+                    <br>
+                    <span>0</span>
+                    <input type="range" id="rango" name="Rango" min="0" max="100" value="">
+                    <span>100</span>
+                    <input type="submit" value="Enviar">
+                    </form>
+            </section>
+            <section class="animate__animated animate__zoomIn">
+                <h2>Formulario</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa asperiores earum, similique eius autem soluta optio harum qui dignissimos, adipisci esse, laudantium sequi sit nihil laboriosam! Cupiditate fugiat provident eveniet error suscipit nam odit, qui minus odio inventore blanditiis! Eius dolorum error autem dicta earum molestias dolores laboriosam similique nisi nostrum doloribus, excepturi ex explicabo voluptatum maxime nobis non! Dolore quaerat, obcaecati aliquam tempora id cum enim tenetur laboriosam dolorum quia debitis illo modi. Laudantium non est iusto architecto rem!</p>
+                <form action="" method="get">
+                    <label for="busca">Buscador</label>
+                    <br>
+                    <input type="search" id="busca" name="Busca" placeholder="Ingresa tu busaqueda">
+                    <br>
+                    <label for="link">Ingresa link</label>
+                    <br>
+                    <input type="url" id="link" name="Link" placeholder="https://example.com">
+                    
+                    <br>
+                    <label for="femail">Correo</label>
+                    <br>    
+                    <input type="email" id="femail" name="email" placeholder="@outlook.com">
+                    
+                    <input type="reset">
+                    <input type="submit" value="Buscar">
+
+                    <label for="sugerencia">Comentarios</label>                 
+                    <input type="text2" id="sugerencia" name="Sugerencia" placeholder="Agradecemos sus comentarios los tomaremos en cuenta c:">
+                      
+                    <input type="submit" value="Enviar">
+                    
+                </form>
+            </section>
+        </main>
+        <footer>Elaborado por Diego Anotnio García Silva</footer>
+    </body>
+</html>

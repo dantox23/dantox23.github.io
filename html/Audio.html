@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <Title>Audio en HTML</Title>
+        <link rel="stylesheet" href="../CSS/style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+            <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Covered+By+Your+Grace&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fruktur:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mr+Dafoe&family=Mukta:wght@200;300;400;500;600;700;800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Viga&display=swap" rel="stylesheet">
+            
+        <style type="text/css">
+            img{
+                width: 30%;
+                height: auto;
+                float: right;
+                margin-left: 15px;
+                border: 10px solid #38CAA1;
+                padding: 10px;
+            }
+            .volver{
+                width: 60px;
+                height: auto;
+                border-style: none;
+                background-color: aquamarine;
+                border-radius: 10px;
+                float: right;
+            }
+            section{
+                width: 25%;
+                min-width: 350px;
+                height: 600px;
+                display: inline-block;
+                overflow-y: auto;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                margin-top: 10px
+            }
+            main{
+                text-align: center;
+            }
+            main section{
+                text-align: justify;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+           <a href="../index.html"><img class="volver" src="../imagenes/reshot-icon-temple-building-BMP5SKFA7R.svg" alt="Menu"></a>
+            <h1 class="animate__animated animate__zoomInDown">AUDIOS</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="formatos_texto.html">Formatos</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="Enlaces.html">Enlaces</a></li>
+                <li><a href="Tablas.html">Tablas</a></li>
+                <li><a href="Imagenes.html">Imagenes</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+                <li><a href="../index.html">Index</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="animate__animated animate__zoomIn">
+                <h2>Audio</h2>
+                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Rhoncus enim lectus conubia elit curabitur sodales quis gravida augue purus turpis interdum ad accumsan ac scelerisque hendrerit efficitur nullam eleifend himenaeos hendrerit curae egestas posuere sodales urna netus tincidunt proin faucibus nunc est tempor scelerisque est fringilla venenatis mus parturient ut cursus faucibus nisl purus pulvinar nunc fames praesent ex orci amet posuere luctus ac scelerisque sit fames lacus class pulvinar nulla velit quis sollicitudin molestie amet ullamcorper enim viverra ad ad blandit mus mauris dapibus class lacus nibh ornare consectetur natoque fermentum sodales lacus convallis ultrices duis senectus tempus sapien dapibus dictum fermentum amet risus auctor augue elit duis ornare enim gravida tortor leo consectetur phasellus facilisis nec diam cras ipsum placerat est arcu.</p>
+                <audio controls>
+                    <source src="../audios/ruinas.mp3" type="audio/mp3"> No es posible reproducir
+                </audio>
+            </section>
+            <section class="animate__animated animate__zoomIn">
+                <h2>Audio con autoplay</h2>
+                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Rhoncus enim lectus conubia elit curabitur sodales quis gravida augue purus turpis interdum ad accumsan ac scelerisque hendrerit efficitur nullam eleifend himenaeos hendrerit curae egestas posuere sodales urna netus tincidunt proin faucibus nunc est tempor scelerisque est fringilla venenatis mus parturient ut cursus faucibus nisl purus pulvinar nunc fames praesent ex orci amet posuere luctus ac scelerisque sit fames lacus class pulvinar nulla velit quis sollicitudin molestie amet ullamcorper.</p>
+                <audio controls autoplay muted>
+                    <source src="../audios/lebron.mp3" type="audio/mp3"> No es posible reproducir
+                </audio>
+            </section>
+            <section class="animate__animated animate__zoomIn">
+                <h2>Audio con repordiccion psiquica</h2>
+                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Rhoncus enim lectus conubia elit curabitur sodales quis gravida augue purus turpis interdum ad accumsan ac scelerisque hendrerit efficitur nullam eleifend himenaeos hendrerit curae egestas posuere sodales urna netus tincidunt proin faucibus nunc est tempor scelerisque est fringilla venenatis mus parturient ut cursus faucibus nisl purus pulvinar nunc fames praesent ex orci amet posuere luctus ac scelerisque sit fames lacus class pulvinar nulla velit quis sollicitudin molestie amet ullamcorper enim viverra ad ad blandit mus mauris dapibus class lacus nibh ornare consectetur natoque fermentum sodales lacus convallis ultrices duis senectus tempus sapien dapibus dictum fermentum amet risus auctor augue elit duis ornare enim gravida tortor leo consectetur phasellus facilisis nec diam cras ipsum placerat est arcu.</p>
+                <audio controls loop>
+                <source src="../audios/hijodelanoche.mp3" type="audio/mp3"> No es posible reproducir
+                </audio>
+            </section>
+            <section class="animate__animated animate__zoomIn">
+                <h2>Audio de repositorio</h2>
+                <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Rhoncus enim lectus conubia elit curabitur sodales quis gravida augue purus turpis interdum ad accumsan ac scelerisque hendrerit efficitur nullam eleifend himenaeos hendrerit curae egestas posuere sodales urna netus tincidunt proin faucibus nunc est tempor scelerisque est fringilla venenatis mus parturient ut cursus faucibus nisl purus pulvinar nunc fames praesent ex orci amet posuere luctus ac scelerisque sit fames lacus class pulvinar nulla velit quis sollicitudin molestie amet ullamcorper enim viverra ad ad blandit mus mauris dapibus class lacus nibh ornare consectetur natoque fermentum sodales lacus convallis ultrices duis senectus tempus sapien dapibus dictum fermentum amet risus auctor augue elit duis ornare enim gravida tortor leo consectetur phasellus facilisis nec diam cras ipsum placerat est arcu.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LbPKGGgFJjg?si=KxViG00MAd4f10IC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+            <section class="animate__animated animate__zoomIn">
+                <h2>Audio en repositorio</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ipsum iusto veniam magni doloribus officiis, aliquam non mollitia maiores architecto sit quidem, earum voluptatum? Expedita explicabo tenetur cumque aperiam suscipit officia, dolorum vero doloribus sunt. Unde beatae placeat consequuntur eaque suscipit esse dolorem molestias recusandae, dolores nesciunt doloribus fugit, eveniet explicabo sint, ea doloremque nisi voluptates illo sed autem quae eos non provident soluta. Omnis accusantium rerum temporibus, voluptas odit, quos quo, magni, fugiat molestias consectetur laborum ducimus earum! Voluptates ab doloremque, nihil perspiciatis aperiam, illo maiores molestias ex praesentium totam. Odio expedita ex possimus dignissimos ipsam, saepe neque sunt perferendis autem cupiditate voluptatum culpa quis, velit quo voluptatibus non?</p>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0qPbQWcqNDVrReSSvMoJxk?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+            <section class="animate__animated animate__zoomIn">
+                <h2>Audio en repositorio</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nobis unde, nisi iure alias animi mollitia in maxime sequi velit debitis et reprehenderit est dolor ducimus libero dolorem consectetur laboriosam nemo vitae perspiciatis eligendi earum. Cumque ipsum, repudiandae laborum, dignissimos nemo itaque amet? Delectus esse excepturi culpa consequatur asperiores, praesentium quisquam nostrum cumque, ex fugit magnam dolorum inventore accusantium dolores facere! Recusandae id at tempore consequatur dolore mollitia cum autem, blanditiis, ducimus ipsum et totam aspernatur soluta necessitatibus labore ullam.</p>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4dWYkBXZezgv6SXPnCGVQK?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </section>
+        </main>
+        <footer>
+            <h6>Elaborado por Diego Antonio García Silva</h6>
+        </footer>
+    </body>
+</html>
